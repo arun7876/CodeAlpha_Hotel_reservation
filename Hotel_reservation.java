@@ -80,6 +80,7 @@ public class Hotel_reservation {
         System.out.println();
         viewDetails();
         System.out.println("Thank You. Have a wonderfull stay");
+        Scan.close();
     }
     public static void viewDetails(){
         System.out.println("Booking Details: ");
